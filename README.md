@@ -2,11 +2,14 @@
 
 [![Readme-CN](https://img.shields.io/badge/README-中文-green.svg)](README.zh-CN.md)
 
-`Oracle-MNIST` dataset comprises of 28×28 grayscale images of 30,222 ancient characters from 10 categories, for benchmarking pattern classification, with particular challenges on image noise and distortion. The training set totally consists of 27,222 images, and the test set contains 300 images per class. `Oracle-MNIST` shares the same data format with the original [MNIST dataset](http://yann.lecun.com/exdb/mnist/), allowing for direct compatibility with all existing classifiers and systems, but it constitutes a more challenging classification task than MNIST. The images of ancient characters suffer from 1) extremely serious and unique noises caused by three- thousand years of burial and aging and 2) dramatically variant writing styles by ancient Chinese, which all make them realistic for machine learning research. 
+`Oracle-MNIST` dataset comprises of 28×28 grayscale images of 30,222 ancient characters from 10 categories, for benchmarking pattern classification, with particular challenges on image noise and distortion. The training set totally consists of 27,222 images, and the test set contains 300 images per class. 
+
+`Oracle-MNIST` shares the same data format with the original [MNIST dataset](http://yann.lecun.com/exdb/mnist/), allowing for direct compatibility with all existing classifiers and systems, but it constitutes a more challenging classification task than MNIST. The images of ancient characters suffer from **1) extremely serious and unique noises caused by three- thousand years of burial and aging and 2) dramatically variant writing styles by ancient Chinese**, which all make them realistic for machine learning research. 
 
 Here's an example of how the data looks (*each class takes two-rows*):
-
-![Image](https://raw.githubusercontent.com/wm-bupt/images/main/oracle-mnist.png)
+<div align=center>
+<img src="https://raw.githubusercontent.com/wm-bupt/images/main/oracle-mnist.png" width="800">
+</div>
 
 ## Get the Data
 
@@ -22,8 +25,9 @@ You can directly download the dataset from [Google drive](http://fashion-mnist.s
 Alternatively, you can clone this GitHub repository; the dataset appears under `data/oracle`. This repo also contains some scripts for benchmark.
 
 `Note`: All of the scanned images in Oracle-MNIST are preprocessed by the following conversion pipeline. We also make the original images available and left the data processing job to the algorithm developers. You can download the original images from [Google drive](http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/train-images-idx3-ubyte.gz) or [Baidu drive](http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/train-images-idx3-ubyte.gz).
-
-![Image](https://raw.githubusercontent.com/wm-bupt/images/main/convert.png)
+<div align=center>
+<img src="https://raw.githubusercontent.com/wm-bupt/images/main/convert.png" width="700">
+</div>
 
 ## Usage
 
