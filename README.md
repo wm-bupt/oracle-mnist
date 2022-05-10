@@ -13,7 +13,7 @@ Here's an example of how the data looks (*each class takes two-rows*):
 You can directly download the dataset from [Google drive](http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/train-images-idx3-ubyte.gz) or [Baidu drive](http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/train-images-idx3-ubyte.gz). The data is stored in the **same** format as the original [MNIST data](http://yann.lecun.com/exdb/mnist/). The result files are listed in following table.
 
 | Name  | Content | Examples | Size |
-| --- | --- |--- | --- |--- |--- |
+| --- | --- |--- | --- |
 | `train-images-idx3-ubyte.gz`  | training set images  | 27,222|12.4 MBytes |
 | `train-labels-idx1-ubyte.gz`  | training set labels  |27,222|13.7 KBytes |
 | `t10k-images-idx3-ubyte.gz`  | test set images  | 3,000|1.4 MBytes |
