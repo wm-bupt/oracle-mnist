@@ -2,11 +2,15 @@
 
 [![Readme-EN](https://img.shields.io/badge/README-English-green.svg)](README.md)
 
-`Oracle-MNIST` 数据集涵盖了来自10种类别的共30222个古文字的28×28的灰度图片，可以用它来测试机器学习算法在图像噪声和失真环境下的鲁棒性。训练集总共包含27222个图片，测试集每个类别包含300张图片。Oracle-MNIST的格式与原始的[MNIST数据集](http://yann.lecun.com/exdb/mnist/)完全一致，因此，它与所有现有分类器和系统直接兼容，但却构成了比MNIST更具挑战性的分类任务。古文字的图片包含 **1）由近三千年的埋葬和老化所造成的极其严重的噪音和磨损，2）由古汉语书写风格造成的巨大类内变化**，从而能够为机器学习算法提供一个更加真实且更有难度的测试数据。
+`Oracle-MNIST` 数据集涵盖了来自10种类别的共30222个古文字的28×28的灰度图片，可以用它来测试机器学习算法在图像噪声和失真环境下的鲁棒性。训练集总共包含27222个图片，测试集每个类别包含300张图片。
+
+Oracle-MNIST的格式与原始的[MNIST数据集](http://yann.lecun.com/exdb/mnist/)完全一致，因此，它与所有现有分类器和系统直接兼容，但却构成了比MNIST更具挑战性的分类任务。古文字的图片包含 **1）由近三千年的埋葬和老化所造成的极其严重的噪音和磨损，2）由古汉语书写风格造成的巨大类内变化**，从而能够为机器学习算法提供一个更加真实且更有难度的测试数据。
 
 这个数据集的样子大致如下（每个类别占两行）：
 
-![Image](https://raw.githubusercontent.com/wm-bupt/images/main/oracle-mnist.png)
+<div align=center>
+<img src="https://raw.githubusercontent.com/wm-bupt/images/main/oracle-mnist.png" width="800">
+</div>
 
 ## 获取数据
 
@@ -23,7 +27,9 @@
 
 `注意': `Oracle-MNIST`中所有的拓片甲骨文图片都经过以下步骤进行预处理。我们也将原始（未经过预处理）的拓片甲骨文图片开源，以供研究者们自己进行预处理工作。原始的图片可以从[谷歌网盘](http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/train-images-idx3-ubyte.gz)或者[百度网盘](http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/train-images-idx3-ubyte.gz)下载.
 
-![Image](https://raw.githubusercontent.com/wm-bupt/images/main/oracle-mnist.png)
+<div align=center>
+<img src="https://raw.githubusercontent.com/wm-bupt/images/main/convert.png" width="700">
+</div>
 
 ## 如何载入数据？
 
