@@ -23,7 +23,7 @@ Alternatively, you can clone this GitHub repository; the dataset appears under `
 
 `Note`: All of the scanned images in Oracle-MNIST are preprocessed by the following conversion pipeline. We also make the original images available and left the data processing job to the algorithm developers. You can download the original images from [Google drive](http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/train-images-idx3-ubyte.gz) or [Baidu drive](http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/train-images-idx3-ubyte.gz).
 
-![Image](https://raw.githubusercontent.com/wm-bupt/images/main/convert.pdf)
+![Image](https://raw.githubusercontent.com/wm-bupt/images/main/convert.png)
 
 ## Usage
 
