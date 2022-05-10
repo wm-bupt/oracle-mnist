@@ -77,5 +77,3 @@ python main.py --gpu 0 --gen_img_dir generate_img/STSN --num_steps 250000 --batc
   eprint       = {cs.LG/1708.07747},
 }
 ```
-
-```
