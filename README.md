@@ -4,9 +4,9 @@
 
 `Oracle-MNIST` dataset comprises of 28×28 grayscale images of 30,222 ancient characters from 10 categories, for benchmarking pattern classification, with particular challenges on image noise and distortion. The training set totally consists of 27,222 images, and the test set contains 300 images per class. 
 
-**Easy-of-use.** `Oracle-MNIST` shares the same data format with the original [MNIST dataset](http://yann.lecun.com/exdb/mnist/), allowing for direct compatibility with all existing classiﬁers and systems.
+**1. Easy-of-use.** `Oracle-MNIST` shares the same data format with the original [MNIST dataset](http://yann.lecun.com/exdb/mnist/), allowing for direct compatibility with all existing classiﬁers and systems.
 
-**Real-world challenge.** `Oracle-MNIST` constitutes a more challenging classification task than MNIST. The images of ancient characters suffer from 1) extremely serious and unique noises caused by three- thousand years of burial and aging and 2) dramatically variant writing styles by ancient Chinese, which all make them realistic for machine learning research. 
+**2. Real-world challenge.** `Oracle-MNIST` constitutes a more challenging classification task than MNIST. The images of ancient characters suffer from 1) extremely serious and unique noises caused by three- thousand years of burial and aging and 2) dramatically variant writing styles by ancient Chinese, which all make them realistic for machine learning research. 
 
 Here's an example of how the data looks (*each class takes two-rows*):
 <div align=center>
