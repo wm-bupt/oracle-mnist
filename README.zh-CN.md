@@ -18,12 +18,12 @@
 
 你可以直接从[谷歌网盘](http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/train-images-idx3-ubyte.gz)或者[百度网盘](http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/train-images-idx3-ubyte.gz)下载该数据集。`Oracle-MNIST`的数据集的存储方式和命名与[经典MNIST数据集](http://yann.lecun.com/exdb/mnist/)完全一致。下表列出了相关的文件信息。
 
-| 名称  | 描述 | 样本数量 | 文件大小 |
-| --- | --- |--- | --- |
-| `train-images-idx3-ubyte.gz`  | 训练集的图像  | 27,222|12.4 MBytes |
-| `train-labels-idx1-ubyte.gz`  | 训练集的类别标签  |27,222|13.7 KBytes |
-| `t10k-images-idx3-ubyte.gz`  | 测试集的图像  | 3,000|1.4 MBytes |
-| `t10k-labels-idx1-ubyte.gz`  | 测试集的类别标签  | 3,000| 1.6 KBytes |
+| 名称  | 描述 | 样本数量 | 文件大小 |下载链接|
+| --- | --- |--- | --- | --- |
+| `train-images-idx3-ubyte.gz`  | 训练集的图像  | 27,222|12.4 MBytes | [谷歌网盘](http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/train-images-idx3-ubyte.gz)或[百度网盘](http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/train-images-idx3-ubyte.gz)|
+| `train-labels-idx1-ubyte.gz`  | 训练集的类别标签  |27,222|13.7 KBytes |[谷歌网盘](http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/train-images-idx3-ubyte.gz)或[百度网盘](http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/train-images-idx3-ubyte.gz)|
+| `t10k-images-idx3-ubyte.gz`  | 测试集的图像  | 3,000|1.4 MBytes |[谷歌网盘](http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/train-images-idx3-ubyte.gz)或[百度网盘](http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/train-images-idx3-ubyte.gz)|
+| `t10k-labels-idx1-ubyte.gz`  | 测试集的类别标签  | 3,000| 1.6 KBytes |[谷歌网盘](http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/train-images-idx3-ubyte.gz)或[百度网盘](http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/train-images-idx3-ubyte.gz)|
 
 或者，你可以直接克隆这个代码库。数据集就放在`data/oracle`下。这个代码库还包含了一些用于评测的脚本。
 
