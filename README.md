@@ -6,9 +6,9 @@
 
 **1. Easy-of-use.** `Oracle-MNIST` shares the same data format with the original [MNIST dataset](http://yann.lecun.com/exdb/mnist/), allowing for direct compatibility with all existing classiﬁers and systems.
 
-**2. Real-world challenge.** `Oracle-MNIST` constitutes a more challenging classification task than MNIST. The images of ancient characters suffer from 1) extremely serious and unique noises caused by three- thousand years of burial and aging and 2) dramatically variant writing styles by ancient Chinese, which all make them realistic for machine learning research. 
+**2. Real-world challenge.** `Oracle-MNIST` constitutes a more challenging classification task than MNIST. The images of oracle characters suffer from 1) extremely serious and unique noises caused by three- thousand years of burial and aging and 2) dramatically variant writing styles by ancient Chinese, which all make them realistic for machine learning research. 
 
-Here's an example of how the data looks (*each class takes two-rows*):
+Oracle characters are the oldest hieroglyphs in China. Here's an example of how the data looks (*each class takes two-rows*):
 <div align=center>
 <img src="https://raw.githubusercontent.com/wm-bupt/images/main/oracle-mnist.png" width="800">
 </div>
