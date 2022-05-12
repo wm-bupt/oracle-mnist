@@ -39,8 +39,8 @@
 - 你可以直接使用`src/mnist_reader`：
 ```python
 import mnist_reader
-X_train, y_train = mnist_reader.load_mnist('data/oracle', kind='train')
-X_test, y_test = mnist_reader.load_mnist('data/oracle', kind='t10k')
+x_train, y_train = mnist_reader.load_mnist('data/oracle', kind='train')
+x_test, y_test = mnist_reader.load_mnist('data/oracle', kind='t10k')
 ```
 
 ### 使用Tensorflow
