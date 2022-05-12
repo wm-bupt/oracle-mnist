@@ -56,9 +56,14 @@ data.train.next_batch(BATCH_SIZE)
 
 You can reproduce the results of CNN by running src/main.py, and reproduce the results of other machine learning algorithms by running benchmark/runner.py provided by [Fashion-MNIST](https://github.com/zalandoresearch/fashion-mnist/tree/master/benchmark).
 
-CNN：
+CNN (pytorch)：
 ```bash
-python main.py --gpu 0 --gen_img_dir generate_img/STSN --num_steps 250000 --batch_size 16
+python train_pytorch.py --lr 0.1 --epochs 15 --net Net1 --data-dir ../data/oracle/
+```
+
+CNN (tensorflow)：
+```bash
+python train_tensorflow.py --lr 0.1 --epochs 15 --data-dir ../data/oracle/
 ```
 
 ## Citing Oracle-MNIST
