@@ -38,8 +38,8 @@ Alternatively, you can clone this GitHub repository; the dataset appears under `
 Use `src/mnist_reader` in this repo:
 ```python
 import mnist_reader
-X_train, y_train = mnist_reader.load_mnist('data/oracle', kind='train')
-X_test, y_test = mnist_reader.load_mnist('data/oracle', kind='t10k')
+x_train, y_train = mnist_reader.load_mnist('data/oracle', kind='train')
+x_test, y_test = mnist_reader.load_mnist('data/oracle', kind='t10k')
 ```
 
 ### Loading data with Tensorflow
