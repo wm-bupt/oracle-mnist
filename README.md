@@ -43,11 +43,13 @@ x_test, y_test = mnist_reader.load_data('data/oracle', kind='t10k')
 ```
 
 ### Loading data with Tensorflow
+Since there is no validation set in Oracle-MNIST, .
+
 Make sure you have [downloaded the data](#get-the-data) and placed it in `data/oracle`. Otherwise, *Tensorflow will download and use the original MNIST.*
 
 ```python
-from tensorflow.examples.tutorials.mnist import input_data
-data = input_data.read_data_sets('data/oracle')
+import mnist_reader_tf as mnist_reader
+mnist = mnist_reader.read_data_sets('../data/oracle/', one_hot=True)
 
 data.train.next_batch(BATCH_SIZE)
 ```
