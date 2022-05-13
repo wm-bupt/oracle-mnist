@@ -43,18 +43,25 @@ x_test, y_test = mnist_reader.load_data('data/oracle', kind='t10k')
 ```
 
 ### Loading data with Tensorflow
-Make sure you have [downloaded the data](#get-the-data) and placed it in `data/oracle`. **Since there is no validation set in Oracle-MNIST, the official dataload package, i.e., `tensorflow.examples.tutorials.mnist`, cannot be directly used**. You can use `src/mnist_reader_tf` instead in this repo:
+Make sure you have [downloaded the data](#get-the-data) and placed it in `data/oracle`. Otherwise, *Tensorflow will download and use the original MNIST.*
+```python
+from tensorflow.examples.tutorials.mnist import input_data
+data = input_data.read_data_sets('data/oracle')
 
+data.train.next_batch(BATCH_SIZE)
+```
+
+`Note`:This official Tensorflow packages `tensorflow.examples.tutorials.mnist.input_data` would split training data into two subset. 22,222 samples are used for training, and 5,000 samples are left for validation. You can use `src/mnist_reader_tf` instead in this repo to change the number of validation data: 
 ```python
 import mnist_reader_tf as mnist_reader
-mnist = mnist_reader.read_data_sets('../data/oracle/', one_hot=True)
+data = mnist_reader.read_data_sets('data/oracle', one_hot=True, valid_num=0)
 
 data.train.next_batch(BATCH_SIZE)
 ```
 
 ## How to train it
 
-You can reproduce the results of CNN by running src/main.py, and reproduce the results of other machine learning algorithms by running benchmark/runner.py provided by [Fashion-MNIST](https://github.com/zalandoresearch/fashion-mnist/tree/master/benchmark).
+You can reproduce the results of CNN by running `src/train_pytorch.py` or `src/train_tf_keras.py`, and reproduce the results of other machine learning algorithms by running benchmark/runner.py provided by [Fashion-MNIST](https://github.com/zalandoresearch/fashion-mnist/tree/master/benchmark).
 
 CNN (pytorch)：
 ```bash
@@ -63,12 +70,7 @@ python train_pytorch.py --lr 0.1 --epochs 15 --net Net1 --data-dir ../data/oracl
 
 CNN (tensorflow+keras)：
 ```bash
-python train_tensorflow_keras.py --lr 0.1 --epochs 15 --data-dir ../data/oracle/
-```
-
-CNN (tensorflow)：
-```bash
-python train_tensorflow.py --iter 1000 --data-dir ../data/oracle/
+python train_tf_keras.py --lr 0.1 --epochs 15 --data-dir ../data/oracle/
 ```
 
 ## Citing Oracle-MNIST
