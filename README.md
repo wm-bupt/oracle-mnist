@@ -26,7 +26,7 @@ You can directly download the dataset from [Google drive](http://fashion-mnist.s
 
 Alternatively, you can clone this GitHub repository; the dataset appears under `data/oracle`. This repo also contains some scripts for benchmark.
 
-`Note`: All of the scanned images in Oracle-MNIST are preprocessed by the following conversion pipeline. We also make the original images available and left the data processing job to the algorithm developers. You can download the original images from [Google drive](http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/train-images-idx3-ubyte.gz) or [Baidu drive](http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/train-images-idx3-ubyte.gz).
+`Note`: All of the scanned images in Oracle-MNIST are preprocessed by the following conversion pipeline. We also make the original images available and left the data processing job to the algorithm developers. You can download the original images from [Google drive](http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/train-images-idx3-ubyte.gz) or [Baidu drive](https://pan.baidu.com/s/1b2CyTbOyqsFWedpFtOLG8w) (code: 0eyg).
 <div align=center>
 <img src="https://raw.githubusercontent.com/wm-bupt/images/main/convert.png" width="700">
 </div>
