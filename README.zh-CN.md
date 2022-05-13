@@ -27,7 +27,7 @@
 
 或者，你可以直接克隆这个代码库。数据集就放在`data/oracle`下。这个代码库还包含了一些用于评测的脚本。
 
-`注意': `Oracle-MNIST`中所有的拓片甲骨文图片都经过以下步骤进行预处理。我们也将原始（未经过预处理）的拓片甲骨文图片开源，以供研究者们自己进行预处理工作。原始的图片可以从[谷歌网盘](http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/train-images-idx3-ubyte.gz)或者[百度网盘](http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/train-images-idx3-ubyte.gz)下载.
+`注意`: `Oracle-MNIST`中所有的拓片甲骨文图片都经过以下步骤进行预处理。我们也将原始（未经过预处理）的拓片甲骨文图片开源，以供研究者们自己进行预处理工作。原始的图片可以从[谷歌网盘](http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/train-images-idx3-ubyte.gz)或者[百度网盘](http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/train-images-idx3-ubyte.gz)下载.
 
 <div align=center>
 <img src="https://raw.githubusercontent.com/wm-bupt/images/main/convert.png" width="700">
@@ -52,14 +52,26 @@ data = input_data.read_data_sets('data/oracle')
 
 data.train.next_batch(BATCH_SIZE)
 ```
+`注意`:Tensorflow官方的数据读取包会将训练集分成两个自己。其中，22222个样本用作训练，5000个样本会保留起来用作验证。你可以使用这个代码库中的`src/mnist_reader_tf`来读取数据。通过改变参数`valid_num`的值，它可以任意改变验证集的数量：
+```python
+import mnist_reader_tf as mnist_reader
+data = mnist_reader.read_data_sets('data/oracle', one_hot=True, valid_num=0)
+
+data.train.next_batch(BATCH_SIZE)
+```
 
 ## 如何测评
 
-你可以运行`src/main.py`对卷积神经网络的结果进行重现, 也可以通过运行[Fashion-MNIST网站](https://github.com/zalandoresearch/fashion-mnist/tree/master/benchmark)上提供的`benchmark/runner.py`对其他算法的结果进行重现.
+你可以运行`src/train_pytorch.py`或`src/train_tf_keras.py`对卷积神经网络的结果进行重现, 也可以通过运行[Fashion-MNIST网站](https://github.com/zalandoresearch/fashion-mnist/tree/master/benchmark)上提供的`benchmark/runner.py`对其他算法的结果进行重现.
 
-卷积神经网络：
+卷积神经网络(pytorch)：
 ```bash
-python main.py --gpu 0 --gen_img_dir generate_img/STSN --num_steps 250000 --batch_size 16
+python train_pytorch.py --lr 0.1 --epochs 15 --net Net1 --data-dir ../data/oracle/
+```
+
+卷积神经网络(tensorflow+keras)：
+```bash
+python train_tf_keras.py --lr 0.1 --epochs 15 --data-dir ../data/oracle/
 ```
 
 ## 在论文中引用Oracle-MNIST
