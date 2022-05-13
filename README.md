@@ -51,7 +51,7 @@ data = input_data.read_data_sets('data/oracle')
 data.train.next_batch(BATCH_SIZE)
 ```
 
-`Note`:This official packages of Tensorflow `tensorflow.examples.tutorials.mnist.input_data` would split training data into two subset. 22,222 samples are used for training, and 5,000 samples are left for validation. You can instead use `src/mnist_reader_tf` in this repo to load data. The number of validation data can be arbitrarily changed by varying the value of `valid_num`: 
+`Note`:This official packages `tensorflow.examples.tutorials.mnist.input_data` would split training data into two subset: 22,222 samples are used for training, and 5,000 samples are left for validation. You can instead use `src/mnist_reader_tf` in this repo to load data. The number of validation data can be arbitrarily changed by varying the value of `valid_num`: 
 ```python
 import mnist_reader_tf as mnist_reader
 data = mnist_reader.read_data_sets('data/oracle', one_hot=True, valid_num=0)
