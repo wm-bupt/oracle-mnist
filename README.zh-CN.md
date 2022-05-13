@@ -52,7 +52,7 @@ data = input_data.read_data_sets('data/oracle')
 
 data.train.next_batch(BATCH_SIZE)
 ```
-`注意`:Tensorflow官方的数据读取包会将训练集分成两个子集。其中，22222个样本用作训练，5000个样本会保留起来用作验证。你可以使用这个代码库中的`src/mnist_reader_tf`来读取数据。通过改变参数`valid_num`的值，它可以任意改变验证集的数量：
+`注意`:Tensorflow官方的数据读取包`tensorflow.examples.tutorials.mnist.input_data`会将训练集分成两个子集。其中，22222个样本用作训练，5000个样本会保留起来用作验证。你可以使用这个代码库中的`src/mnist_reader_tf`来读取数据。通过改变参数`valid_num`的值，它可以任意改变验证集的数量：
 ```python
 import mnist_reader_tf as mnist_reader
 data = mnist_reader.read_data_sets('data/oracle', one_hot=True, valid_num=0)
