@@ -70,7 +70,7 @@ python train_pytorch.py --lr 0.1 --epochs 15 --net Net1 --data-dir ../data/oracl
 
 CNN (tensorflow+keras)：
 ```bash
-python train_tf_keras.py --lr 0.1 --epochs 15 --data-dir ../data/oracle/
+python train_tensorflow_keras.py --lr 0.1 --epochs 15 --data-dir ../data/oracle/
 ```
 
 ## Citing Oracle-MNIST
