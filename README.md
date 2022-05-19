@@ -15,7 +15,7 @@ Oracle characters are the oldest hieroglyphs in China. Here's an example of how 
 
 ## Get the Data
 
-You can directly download the dataset from [Google drive](http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/train-images-idx3-ubyte.gz) or [Baidu drive](https://pan.baidu.com/s/1HXbr-23ib4aISOQKXy3HzQ) (code: 5pq5). The data is stored in the **same** format as the original MNIST data. The result files are listed in following table.
+You can directly download the dataset from [Google drive](https://drive.google.com/drive/folders/1JtckCILRwVloa54_DQA5zBTv4e5NJCgs?usp=sharing) or [Baidu drive](https://pan.baidu.com/s/1HXbr-23ib4aISOQKXy3HzQ) (code: 5pq5). The data is stored in the **same** format as the original MNIST data. The result files are listed in following table.
 
 | Name  | Content | Examples | Size |
 | --- | --- |--- | --- |
@@ -26,7 +26,7 @@ You can directly download the dataset from [Google drive](http://fashion-mnist.s
 
 Alternatively, you can clone this GitHub repository; the dataset appears under `data/oracle`. This repo also contains some scripts for benchmark.
 
-`Note`: All of the scanned images in Oracle-MNIST are preprocessed by the following conversion pipeline. We also make the original images available and left the data processing job to the algorithm developers. You can download the original images from [Google drive](http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/train-images-idx3-ubyte.gz) or [Baidu drive](https://pan.baidu.com/s/1b2CyTbOyqsFWedpFtOLG8w) (code: 0eyg).
+`Note`: All of the scanned images in Oracle-MNIST are preprocessed by the following conversion pipeline. We also make the original images available and left the data processing job to the algorithm developers. You can download the original images from [Google drive](https://drive.google.com/file/d/1gPYAOc9CTvrUQFCASW3oz30lGdKBivn5/view?usp=sharing) or [Baidu drive](https://pan.baidu.com/s/15nPiaQ-HwcvfZx_o0qAaoQ) (code: 7aem).
 <div align=center>
 <img src="https://raw.githubusercontent.com/wm-bupt/images/main/convert.png" width="700">
 </div>
