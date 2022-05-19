@@ -85,7 +85,7 @@ python train_tensorflow_keras.py --lr 0.1 --epochs 15 --data-dir ../data/oracle/
   title={Oracle-MNIST: a Realistic Image Dataset for Benchmarking Machine Learning Algorithms},
   author={Wang, Mei and Deng, Weihong},
   journal={arXiv preprint arXiv},
-  pages={1-7},
+  pages={1--7},
   year={2022}
 }
 ```
