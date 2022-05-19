@@ -81,11 +81,11 @@ python train_tensorflow_keras.py --lr 0.1 --epochs 15 --data-dir ../data/oracle/
 
 亦可使用Biblatex:
 ```latex
-@online{xiao2017/online,
-  author       = {Han Xiao and Kashif Rasul and Roland Vollgraf},
+@online{wang2022oracle,
+  author       = {Mei Wang and Weihong Deng},
   title        = {Oracle-MNIST: a Realistic Image Dataset for Benchmarking Machine Learning Algorithms},
-  date         = {2017-08-28},
-  year         = {2017},
+  date         = {2022-08-28},
+  year         = {2022},
   eprintclass  = {cs.LG},
   eprinttype   = {arXiv},
   eprint       = {cs.LG/1708.07747},
