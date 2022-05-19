@@ -61,7 +61,7 @@ data.train.next_batch(BATCH_SIZE)
 
 ## How to train it
 
-You can reproduce the results of CNN by running `src/train_pytorch.py` or `src/train_tf_keras.py`, and reproduce the results of other machine learning algorithms by running benchmark/runner.py provided by [Fashion-MNIST](https://github.com/zalandoresearch/fashion-mnist/tree/master/benchmark).
+You can reproduce the results of CNN by running `src/train_pytorch.py` or `src/train_tensorflow_keras.py`, and reproduce the results of other machine learning algorithms by running benchmark/runner.py provided by [Fashion-MNIST](https://github.com/zalandoresearch/fashion-mnist/tree/master/benchmark).
 
 CNN (pytorch)：
 ```bash
