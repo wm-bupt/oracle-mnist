@@ -3,7 +3,7 @@ def load_data(path, kind='train'):
     import gzip
     import numpy as np
 
-    """Load MNIST data from `path`"""
+    """Load Oracle-MNIST data from `path`"""
     labels_path = os.path.join(path, '%s-labels-idx1-ubyte.gz' % kind)
     images_path = os.path.join(path, '%s-images-idx3-ubyte.gz' % kind)
 
