@@ -77,17 +77,15 @@ python train_tensorflow_keras.py --lr 0.1 --epochs 15 --data-dir ../data/oracle/
 ## 在论文中引用Oracle-MNIST
 如果你在你的研究工作中使用了这个数据集，欢迎你引用这篇论文：
 
-**Oracle-MNIST: a Realistic Image Dataset for Benchmarking Machine Learning Algorithms. Mei Wang, Weihong Deng. [arXiv:1708.07747](http://arxiv.org/abs/1708.07747)**
+**Oracle-MNIST: a Realistic Image Dataset for Benchmarking Machine Learning Algorithms. Mei Wang, Weihong Deng.**
 
 亦可使用Biblatex:
 ```latex
-@online{wang2022oracle,
-  author       = {Mei Wang and Weihong Deng},
-  title        = {Oracle-MNIST: a Realistic Image Dataset for Benchmarking Machine Learning Algorithms},
-  date         = {2022-08-28},
-  year         = {2022},
-  eprintclass  = {cs.LG},
-  eprinttype   = {arXiv},
-  eprint       = {cs.LG/1708.07747},
+@article{wang2022oracle,
+  title={Oracle-MNIST: a Realistic Image Dataset for Benchmarking Machine Learning Algorithms},
+  author={Wang, Mei and Deng, Weihong},
+  journal={arXiv preprint arXiv},
+  pages={1-7},
+  year={2022}
 }
 ```
