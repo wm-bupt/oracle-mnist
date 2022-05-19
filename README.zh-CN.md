@@ -4,7 +4,7 @@
 
 `Oracle-MNIST` 数据集涵盖了来自10种类别的共30222个古文字的28×28的灰度图片，可以用它来测试机器学习算法在图像噪声和失真环境下的鲁棒性。训练集总共包含27222个图片，测试集每个类别包含300张图片。
 
-**1. 易用性强。** Oracle-MNIST的格式与原始的[MNIST数据集](http://yann.lecun.com/exdb/mnist/)完全一致，因此，它与所有现有分类器和系统直接兼容。
+**1. 易用性强。** Oracle-MNIST的格式与[原始的MNIST数据集](http://yann.lecun.com/exdb/mnist/)完全一致，因此，它与所有现有分类器和系统直接兼容。
 
 **2. 真实世界的挑战。** Oracle-MNIST包含比MNIST更具挑战性的分类任务。甲骨文的图片包含 1）由近三千年的埋葬和老化所造成的极其严重的噪音和磨损，2）由古汉语书写风格造成的巨大类内变化，从而能够为机器学习算法提供一个更加真实且更有难度的测试数据。
 
@@ -16,7 +16,7 @@
 
 ## 获取数据
 
-你可以直接从[谷歌网盘](http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/train-images-idx3-ubyte.gz)或者[百度网盘](https://pan.baidu.com/s/1HXbr-23ib4aISOQKXy3HzQ) (提取码: 5pq5)下载该数据集。`Oracle-MNIST`的数据集的存储方式和命名与[经典MNIST数据集](http://yann.lecun.com/exdb/mnist/)完全一致。下表列出了相关的文件信息。
+你可以直接从[谷歌网盘](http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/train-images-idx3-ubyte.gz)或者[百度网盘](https://pan.baidu.com/s/1HXbr-23ib4aISOQKXy3HzQ) (提取码: 5pq5)下载该数据集。`Oracle-MNIST`的数据集的存储方式和命名与经典MNIST数据集完全一致。下表列出了相关的文件信息。
 
 | 名称  | 描述 | 样本数量 | 文件大小 |
 | --- | --- |--- | --- |
@@ -62,7 +62,7 @@ data.train.next_batch(BATCH_SIZE)
 
 ## 如何测评
 
-你可以运行`src/train_pytorch.py`或`src/train_tf_keras.py`对卷积神经网络的结果进行重现, 也可以通过运行[Fashion-MNIST网站](https://github.com/zalandoresearch/fashion-mnist/tree/master/benchmark)上提供的`benchmark/runner.py`对其他算法的结果进行重现.
+你可以运行`src/train_pytorch.py`或`src/train_tensorflow_keras.py`对卷积神经网络的结果进行重现, 也可以通过运行[Fashion-MNIST网站](https://github.com/zalandoresearch/fashion-mnist/tree/master/benchmark)上提供的`benchmark/runner.py`对其他算法的结果进行重现.
 
 卷积神经网络(pytorch)：
 ```bash
