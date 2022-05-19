@@ -16,7 +16,7 @@
 
 ## 获取数据
 
-你可以直接从[谷歌网盘](http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/train-images-idx3-ubyte.gz)或者[百度网盘](https://pan.baidu.com/s/1HXbr-23ib4aISOQKXy3HzQ) (提取码: 5pq5)下载该数据集。`Oracle-MNIST`的数据集的存储方式和命名与经典MNIST数据集完全一致。下表列出了相关的文件信息。
+你可以直接从[谷歌网盘](https://drive.google.com/drive/folders/1JtckCILRwVloa54_DQA5zBTv4e5NJCgs?usp=sharing)或者[百度网盘](https://pan.baidu.com/s/1HXbr-23ib4aISOQKXy3HzQ) (提取码: 5pq5)下载该数据集。`Oracle-MNIST`的数据集的存储方式和命名与经典MNIST数据集完全一致。下表列出了相关的文件信息。
 
 | 名称  | 描述 | 样本数量 | 文件大小 |
 | --- | --- |--- | --- |
@@ -27,7 +27,7 @@
 
 或者，你可以直接克隆这个代码库。数据集就放在`data/oracle`下。这个代码库还包含了一些用于评测的脚本。
 
-`注意`: `Oracle-MNIST`中所有的拓片甲骨文图片都经过以下步骤进行预处理。我们也将原始（未经过预处理）的拓片甲骨文图片开源，以供研究者们自己进行预处理工作。原始的图片可以从[谷歌网盘](http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/train-images-idx3-ubyte.gz)或者[百度网盘](https://pan.baidu.com/s/1b2CyTbOyqsFWedpFtOLG8w) (提取码: 0eyg)下载.
+`注意`: `Oracle-MNIST`中所有的拓片甲骨文图片都经过以下步骤进行预处理。我们也将原始（未经过预处理）的拓片甲骨文图片开源，以供研究者们自己进行预处理工作。原始的图片可以从[谷歌网盘](https://drive.google.com/file/d/1gPYAOc9CTvrUQFCASW3oz30lGdKBivn5/view?usp=sharing)或者[百度网盘](https://pan.baidu.com/s/15nPiaQ-HwcvfZx_o0qAaoQ) (提取码: 7aem)下载.
 
 <div align=center>
 <img src="https://raw.githubusercontent.com/wm-bupt/images/main/convert.png" width="700">
