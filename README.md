@@ -4,7 +4,7 @@
 
 `Oracle-MNIST` dataset comprises of 28×28 grayscale images of 30,222 ancient characters from 10 categories, for benchmarking pattern classification, with particular challenges on image noise and distortion. The training set totally consists of 27,222 images, and the test set contains 300 images per class. 
 
-**1. Easy-of-use.** `Oracle-MNIST` shares the same data format with the original [MNIST dataset](http://yann.lecun.com/exdb/mnist/), allowing for direct compatibility with all existing classiﬁers and systems.
+**1. Easy-of-use.** `Oracle-MNIST` shares the same data format with [the original MNIST dataset](http://yann.lecun.com/exdb/mnist/), allowing for direct compatibility with all existing classiﬁers and systems.
 
 **2. Real-world challenge.** `Oracle-MNIST` constitutes a more challenging classification task than MNIST. The images of oracle characters suffer from 1) extremely serious and unique noises caused by three- thousand years of burial and aging and 2) dramatically variant writing styles by ancient Chinese, which all make them realistic for machine learning research. 
 
@@ -15,7 +15,7 @@ Oracle characters are the oldest hieroglyphs in China. Here's an example of how 
 
 ## Get the Data
 
-You can directly download the dataset from [Google drive](http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/train-images-idx3-ubyte.gz) or [Baidu drive](https://pan.baidu.com/s/1HXbr-23ib4aISOQKXy3HzQ) (code: 5pq5). The data is stored in the **same** format as the original [MNIST data](http://yann.lecun.com/exdb/mnist/). The result files are listed in following table.
+You can directly download the dataset from [Google drive](http://fashion-mnist.s3-website.eu-central-1.amazonaws.com/train-images-idx3-ubyte.gz) or [Baidu drive](https://pan.baidu.com/s/1HXbr-23ib4aISOQKXy3HzQ) (code: 5pq5). The data is stored in the **same** format as the original MNIST data. The result files are listed in following table.
 
 | Name  | Content | Examples | Size |
 | --- | --- |--- | --- |
