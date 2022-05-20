@@ -76,14 +76,14 @@ python train_tensorflow_keras.py --lr 0.1 --epochs 15 --data-dir ../data/oracle/
 ## Citing Oracle-MNIST
 If you use Oracle-MNIST in a scientific publication, we would appreciate references to the following paper:
 
-**Oracle-MNIST: a Realistic Image Dataset for Benchmarking Machine Learning Algorithms. Mei Wang, Weihong Deng.**
+**Oracle-MNIST: a Realistic Image Dataset for Benchmarking Machine Learning Algorithms. Mei Wang, Weihong Deng. [arXiv:2205.09442](https://arxiv.org/abs/2205.09442)**
 
 Biblatex entry:
 ```latex
 @article{wang2022oracle,
   title={Oracle-MNIST: a Realistic Image Dataset for Benchmarking Machine Learning Algorithms},
   author={Wang, Mei and Deng, Weihong},
-  journal={arXiv preprint arXiv},
+  journal={arXiv preprint arXiv:2205.09442},
   pages={1--7},
   year={2022}
 }
